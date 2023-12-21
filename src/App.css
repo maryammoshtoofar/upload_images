@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+form {
+  background-color: #ffd6d6;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+input {
+  background-color: white;
+  border: 0;
+  outline: none;
+  padding: 1rem;
+}
+
+button {
+  padding: 1rem;
+  border: 0;
+  background-color: #aaff29;
+  font-size: 1.5rem;
+  color: #008000;
+  cursor: pointer;
+  text-transform: capitalize;
+  border-radius: 0.7rem;
+  margin: auto;
+  padding: 0.4rem 2.5rem;
+}
+
+button:hover {
+  color: #004c00;
+}
+table {
+  color: navy;
+  width: 100%;
+}
+
+select {
+  border: none;
+  outline: none;
+  padding: 1rem;
+}
+
+label {
+  color: #633b3b;
+}
+
+th {
+  background-color: rgb(144, 144, 144);
+}
+
+.thumbnail {
+  width: 6rem;
+  margin: 1rem;
+  border: 2px solid salmon;
+}
